@@ -86,7 +86,7 @@ html {
     flex-direction: column;
     position: absolute;
     left: 100px;
-    top: 1400px;
+    top: 1300px;
 }
 .hero__part3{
     display: flex;
@@ -94,7 +94,7 @@ html {
     flex-direction: column;
     position: absolute;
     right: 100px;
-    top: 1800px;
+    top: 1700px;
 }
 .hero__part4{
     display: flex;
@@ -102,7 +102,7 @@ html {
     flex-direction: column;
     position: absolute;
     left: 100px;
-    top: 2200px;
+    top: 2100px;
 }
 .hero__part5{
     display: flex;
@@ -110,7 +110,7 @@ html {
     flex-direction: column;
     position: absolute;
     right: 100px;
-    top: 2600px;
+    top: 2500px;
 }
 .hero__part6{
     display: flex;
@@ -118,7 +118,7 @@ html {
     flex-direction: column;
     position: absolute;
     left: 100px;
-    top: 3000px;
+    top: 2900px;
 }
 .hero__part7{
     display: flex;
@@ -126,7 +126,7 @@ html {
     flex-direction: column;
     position: absolute;
     right: 100px;
-    top: 3400px;
+    top: 3300px;
 }
 .hero__part8{
     display: flex;
@@ -134,7 +134,7 @@ html {
     flex-direction: column;
     position: absolute;
     left: 100px;
-    top: 3800px;
+    top: 3700px;
 }
 .hero__part9{
     display: flex;
@@ -142,7 +142,7 @@ html {
     flex-direction: column;
     position: absolute;
     right: 100px;
-    top: 4200px;
+    top: 4100px;
 }
 .hero__part10{
     display: flex;
@@ -150,7 +150,7 @@ html {
     flex-direction: column;
     position: absolute;
     left: 100px;
-    top: 4600px;
+    top: 4500px;
 }
 .hero__part11{
     display: flex;
@@ -158,7 +158,7 @@ html {
     flex-direction: column;
     position: absolute;
     right: 100px;
-    top: 5000px;
+    top: 4900px;
 }
 .hero__part12{
     display: flex;
@@ -166,7 +166,7 @@ html {
     flex-direction: column;
     position: absolute;
     left: 100px;
-    top: 5400px;
+    top: 5300px;
 }
 .hero__part13{
     display: flex;
@@ -174,7 +174,7 @@ html {
     flex-direction: column;
     position: absolute;
     left: 100px;
-    top: 6100px;
+    top: 6000px;
 }
 .hero__part14{
     display: flex;
@@ -182,7 +182,7 @@ html {
     flex-direction: column;
     position: absolute;
     right: 100px;
-    top: 6500px;
+    top: 6400px;
 }
 .hero__part15{
     display: flex;
@@ -190,7 +190,7 @@ html {
     flex-direction: column;
     position: absolute;
     left: 100px;
-    top: 6900px;
+    top: 6800px;
 }
 .hero__part16{
     display: flex;
@@ -198,7 +198,7 @@ html {
     flex-direction: column;
     position: absolute;
     right: 100px;
-    top: 7300px;
+    top: 7200px;
 }
 .hero__part17{
     display: flex;
@@ -206,5 +206,5 @@ html {
     flex-direction: column;
     position: absolute;
     left: 100px;
-    top: 7700px;
+    top: 7600px;
 }
