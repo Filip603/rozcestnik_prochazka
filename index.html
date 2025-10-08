@@ -403,7 +403,21 @@
             </div>
 
         </div>
-    
+
+        <img class="car" id="car" src="obrazky/auto.png" alt="">
+        <script>
+            const car = document.getElementById("car");
+
+            window.addEventListener("scroll", () => {
+                const scrollY = window.scrollY;
+
+                // Cikcak efekt: auto se bude pohybovat doleva a doprava
+                const x = Math.sin(scrollY / 60) * 200; // 200px doleva/doprava
+                const y = scrollY * 0.008; // rychlost dolů
+
+                car.style.transform = `translate(${x}px, ${y}px)`;
+            });
+        </script>
 
 </body>
 </html>
