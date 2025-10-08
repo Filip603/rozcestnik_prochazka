@@ -124,3 +124,7 @@ h2{
         transform: translateX(0px);
     }
 }
+
+#pozadi {
+  background-image: linear-gradient(to bottom, rgb(49, 49, 49), rgb(24, 24, 24));
+}
