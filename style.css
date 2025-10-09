@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +25,13 @@ html {
     position: fixed;
     gap: -20px;
     z-index: 9999;
+}
+.picture--text{
+    font-family: "Texturina", serif;
+    font-size: 50px;
+}
+h2{
+    font-size: 25px;
 }
 .main__element{
     text-decoration: none;
@@ -63,8 +71,8 @@ html {
     display: flex;
     justify-content: space-between;
     padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 120px;
+    padding-right: 180px;
+    padding-bottom: 150px;
 }
 .hero__element1{
     display: flex;
@@ -177,8 +185,30 @@ h2{
   transform: translateX(-50%) translateY(0); 
   z-index: 4000;
   opacity: 0;
-  transition: transform 0.05s linear, opacity 1s ease; 
+  transition: transform 0.05s linear, opacity 1.4s ease; 
 }
+.container__text2{
+    opacity: 0;
+    transform: translateY(300px);
+    animation: slideUp 1.3s ease forwards;
+}
+.container__text1{
+    opacity: 0;
+    transform: translateY(-300px);
+    animation: slideDown 1.3s ease forwards;
+}
+@keyframes slideUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideDown {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 @media (max-width: 1024px) {
     .main {
         flex-wrap: wrap;
