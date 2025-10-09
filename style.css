@@ -177,5 +177,89 @@ h2{
   transform: translateX(-50%) translateY(0); 
   z-index: 4000;
   opacity: 0;
-  transition: transform 0.05s linear, opacity 1s ease; /* plynulý pohyb a fade-in */
+  transition: transform 0.05s linear, opacity 1s ease; 
+}
+@media (max-width: 1024px) {
+    .main {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        display: none;
+    }
+
+    .main__element {
+        font-size: 1rem;
+        margin: 5px 10px;
+    }
+
+    .container {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 40px;
+    }
+
+    .picture {
+        max-width: 350px;
+    }
+
+    .overlay-text {
+        font-size: 20px;
+    }
+
+    .car {
+        display: none;
+    }
+    html::-webkit-scrollbar{
+    display: none;
+}
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 10px;
+        position: static;
+    }
+
+    .main__element {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .container {
+        font-size: 1.8rem;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .picture {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .overlay-text {
+        width: 95%;
+        height: auto;
+        font-size: 18px;
+    }
+
+    .car {
+        display: none; 
+    }
+    .hero__element1{
+        padding-top: 60px;
+    }
 }
