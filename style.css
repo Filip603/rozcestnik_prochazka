@@ -307,9 +307,14 @@ h2{
     .car {
         display: none;
     }
+
     html::-webkit-scrollbar{
     display: none;
-}
+    }
+    .sipka, .sipka2, .sipka3, .sipka4{
+        display: none;
+    }
+
 }
 
 
