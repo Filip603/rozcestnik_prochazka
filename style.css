@@ -16,27 +16,26 @@ html {
     background-image: url(obrazky/main-background.jpg);
     opacity: 0.8;
     width: 72%;
-    min-height: 60px;
     color: white;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 55px;
+    padding-right: 55px;
     position: fixed;
     gap: 25px;
     z-index: 9999;
     display: flex;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
     border-radius: 0 0 30px 30px ;
     font-family: "Texturina", serif;
+    min-height: 60px;
 }
 .middle{
     width: 100%;
-    min-height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
+    min-height: 60px;
 }
 .picture--text{
     font-family: "Texturina", serif;
@@ -72,12 +71,22 @@ h2{
     -webkit-text-stroke-color: black;
     position: relative;
     overflow: hidden;
-    z-index: 5000;
+    z-index: 5000;    
+}
+.container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, rgba(17, 17, 17, 0), rgb(17, 17, 17));
+    pointer-events: none;
 }
 .hero{
     width: 100%;
     height: fit-content;
-    background-image: url(obrazky/pozadi2.png);
+    background-image: url(obrazky/dopozadi.jpg);
     color: white;
     font-size: 22px;
     display: flex;
@@ -85,6 +94,17 @@ h2{
     padding-left: 150px;
     padding-right: 180px;
     padding-bottom: 130px;
+     z-index: 1; 
+}
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 960px;
+    left: 0;
+    width: 100%;
+    height: 250px; /* výška fade */
+    background: linear-gradient(to top, rgba(17, 17, 17, 0), rgb(17, 17, 17));
+    pointer-events: none;
 }
 .hero__element1{
     display: flex;
@@ -185,9 +205,7 @@ h2{
         transform: translateX(0px);
     }
 }
-#pozadi {
-  background-image: linear-gradient(to bottom, rgb(51, 51, 51), rgb(24, 24, 24));
-}
+
 .car {
   height: 375px;
   width: 375px;
