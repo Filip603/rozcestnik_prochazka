@@ -234,6 +234,9 @@ h2{
     top: 1125px;
     right: 50px;
     z-index: 100;
+    animation: appearRight linear;
+    animation-timeline: view(1%);
+    animation-range: entry 0% cover 40%;
 }
 .sipka{
     position: absolute;
@@ -242,6 +245,9 @@ h2{
     top: 3330px;
     left: 35px;
     z-index: 100;
+    animation: appearLeft linear;
+    animation-timeline: view(1%);
+    animation-range: entry 0% cover 40%;
 }
 .sipka3{
     position: absolute;
@@ -250,14 +256,20 @@ h2{
     top: 5000px;
     left: 35px;
     z-index: 100;
+    animation: appearLeft linear;
+    animation-timeline: view(1%);
+    animation-range: entry 0% cover 40%;
 }
 .sipka4{
     position: absolute;
     height: 75px;
     width: 90px;
     top: 5815px;
-    right: 50px;
+    right: 70px;
     z-index: 100;
+    animation: appearRight linear;
+    animation-timeline: view(1%);
+    animation-range: entry 0% cover 40%;
 }
 @keyframes slideUp {
     to {
