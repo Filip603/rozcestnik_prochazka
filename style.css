@@ -91,7 +91,7 @@ h2{
     font-size: 22px;
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
+    padding-left: 180px;
     padding-right: 180px;
     padding-bottom: 130px;
     z-index: 1; 
@@ -243,7 +243,7 @@ h2{
     height: 75px;
     width: 90px;
     top: 3330px;
-    left: 35px;
+    left: 50px;
     z-index: 100;
     animation: appearLeft linear;
     animation-timeline: view(1%);
@@ -254,7 +254,7 @@ h2{
     height: 75px;
     width: 90px;
     top: 5000px;
-    left: 35px;
+    left: 50px;
     z-index: 100;
     animation: appearLeft linear;
     animation-timeline: view(1%);
